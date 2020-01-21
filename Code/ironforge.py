@@ -101,4 +101,8 @@ def Update(characterList,server,attemptLimit,waitTime,headless,path):
 charList = ["hanham","Wambamtymam","Shrekk","Jarlragnaar","Tyrona"]
 path = 'C://Users//XYZ//Anaconda3//Lib//site-packages//selenium//webdriver//firefox//geckodriver-v0.26.0-win64//geckodriver.exe'
 Update(charList,"Kirtonos",2,1,False,path)
+
+charList = ["hanham","fearmoon","hilroyclntan","Wambamtymam","Shrekk","Jarlragnaar","Tyrona"]
+path = 'C://Users//XYZ//Anaconda3//Lib//site-packages//selenium//webdriver//firefox//geckodriver-v0.26.0-win64//geckodriver.exe'
+x = Scrape(charList,"Kirtonos",2,1,False,path)
 """

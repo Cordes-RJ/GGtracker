@@ -54,6 +54,7 @@ def Scrape(characterList,server,attemptLimit,waitTime,headless,path):
     for character in characterList:
         gear[character] = scrapeCharacter(driver,character,server,attemptLimit,waitTime)
         time.sleep(waitTime)
+    driver.close()
     return gear
 
 def updateChar(driver,character,server,attemptLimit, waitTime):
@@ -94,6 +95,7 @@ def Update(characterList,server,attemptLimit,waitTime,headless,path):
     for character in characterList:
         updateChar(driver, character, server, attemptLimit,waitTime)
         time.sleep(waitTime)
+    driver.close()
         
 """
 charList = ["hanham","Wambamtymam","Shrekk","Jarlragnaar","Tyrona"]

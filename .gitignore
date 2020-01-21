@@ -2,3 +2,5 @@ drafting.py
 Code/__pycache__/
 Code/.spyproject/
 dbcredentials.py
+geckodriver.log
+log.csv
